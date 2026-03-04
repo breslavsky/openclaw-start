@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.env.local
+
+# OpenClaw config backups
+openclaw.json.bak*
+.openclaw
+
+# Evidence and reports (sensitive)
+workspace/**/tmp/
+workspace/**/memory/
+workspace/**/MEMORY.md
+workspace/**/HEARTBEAT.md
+
+# Node modules (if using any scripts)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Browser automation artifacts
+*.har
+*.log

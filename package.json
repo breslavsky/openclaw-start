@@ -1,0 +1,17 @@
+{
+  "name": "openclaw-start",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "openclaw gateway --verbose",
+    "status": "openclaw status"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  },
+  "keywords": [
+    "openclaw"
+  ],
+  "author": "",
+  "license": "MIT"
+}
