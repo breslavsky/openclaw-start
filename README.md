@@ -47,7 +47,7 @@ The main configuration is in [openclaw.json](openclaw.json):
 | Section | Description |
 |---|---|
 | `models` | AI model providers and settings (via OpenRouter) |
-| `agents` | Agent defaults — primary model, concurrency, workspace |
+| `agents` | Agent defaults — primary model, concurrency, workspace; set `verboseDefault: "full"` to enable full verbose output |
 | `channels.telegram` | Telegram bot configuration and allowlist |
 | `gateway` | HTTP gateway port, auth, and network binding |
 | `browser` | Browser automation settings |

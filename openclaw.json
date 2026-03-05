@@ -56,7 +56,6 @@
   },
   "agents": {
     "defaults": {
-      "verboseDefault": "full", 
       "model": {
         "primary": "router/anthropic/claude-sonnet-4.5"
       },
