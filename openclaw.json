@@ -67,7 +67,7 @@
           "alias": "deepseek"
         }
       },
-      "workspace": "${OPENCLAW_HOME}/workspace/tony",
+      "workspace": "${OPENCLAW_HOME}/workspace/${AGENT_FOLDER_NAME}",
       "maxConcurrent": 4,
       "subagents": {
         "maxConcurrent": 8
