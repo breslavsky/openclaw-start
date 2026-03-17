@@ -13,6 +13,7 @@ This project sets up an OpenClaw gateway that:
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) (download and install from nodejs.org)
+- [Visual Studio Code](https://code.visualstudio.com) (recommended editor)
 - An [OpenRouter](https://openrouter.ai) API key
 - A Telegram bot token (from [@BotFather](https://t.me/BotFather))
 
