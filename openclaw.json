@@ -17,8 +17,8 @@
         "api": "openai-completions",
         "models": [
           {
-            "id": "anthropic/claude-sonnet-4.5",
-            "name": "anthropic/claude-sonnet-4.5",
+            "id": "anthropic/claude-opus-4-6",
+            "name": "anthropic/claude-opus-4-6",
             "api": "openai-completions",
             "reasoning": false,
             "input": [
@@ -57,10 +57,10 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "router/anthropic/claude-sonnet-4.5"
+        "primary": "router/anthropic/claude-opus-4-6"
       },
       "models": {
-        "router/anthropic/claude-sonnet-4.5": {
+        "router/anthropic/claude-opus-4-6": {
           "alias": "claude"
         },
         "router/deepseek/deepseek-chat": {
